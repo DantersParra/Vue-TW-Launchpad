@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav-link{
+        @apply p-3 mr-2 text-slate-500 font-bold transition duration-200 hover:text-teal-500
+    }
+}
